@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="CssLoaderCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="cfd4c2c9-9926-4f13-a187-9fbf2e558825"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
