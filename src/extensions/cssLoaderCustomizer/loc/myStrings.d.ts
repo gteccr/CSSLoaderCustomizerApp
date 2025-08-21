@@ -1,8 +1,8 @@
-declare interface ICssLoaderCustomizerApplicationCustomizerStrings {
+declare interface ICssLoaderCustomizerApplicationStrings {
   Title: string;
 }
 
-declare module 'CssLoaderCustomizerApplicationCustomizerStrings' {
-  const strings: ICssLoaderCustomizerApplicationCustomizerStrings;
+declare module 'CssLoaderCustomizerApplicationStrings' {
+  const strings: ICssLoaderCustomizerApplicationStrings;
   export = strings;
 }

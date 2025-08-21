@@ -4,6 +4,9 @@
         Title="CssLoaderCustomizer"
         Location="ClientSideExtension.ApplicationCustomizer"
         ClientSideComponentId="cfd4c2c9-9926-4f13-a187-9fbf2e558825"
-        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+        ClientSideComponentProperties="{
+            &quot;testMessage&quot;:&quot;Test message&quot;,
+            &quot;cssFileName&quot;:&quot;commomcss.css&quot;
+        }">    
     </CustomAction>
 </Elements>

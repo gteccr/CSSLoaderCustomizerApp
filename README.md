@@ -23,14 +23,13 @@ SharePoint Application Customizer Extension to load a custom css file and inject
 
 | Solution    | Author(s)                                               |
 | ----------- | ------------------------------------------------------- |
-| folder name | Author details (name, company, twitter alias with link) |
+| CSSLoaderCustomizer | Gregory Murillo |
 
 ## Version history
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0     | August 21, 2025  | Initial release |
 
 ## Disclaimer
 

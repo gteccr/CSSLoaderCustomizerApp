@@ -1,5 +1,5 @@
 define([], function() {
   return {
-    "Title": "CssLoaderCustomizerApplicationCustomizer"
+    "Title": "[CSS Loader Customizer Application]"
   }
 });
