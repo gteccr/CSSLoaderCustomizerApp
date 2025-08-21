@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
 
   "id": "cfd4c2c9-9926-4f13-a187-9fbf2e558825",
-  "alias": "CssLoaderCustomizerApplicationCustomizer",
+  "alias": "CSS Loader Customizer Application",
   "componentType": "Extension",
   "extensionType": "ApplicationCustomizer",
 

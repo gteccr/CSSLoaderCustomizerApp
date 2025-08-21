@@ -1,10 +1,8 @@
-# css-loader-customizer
+# CSS Loader Customizer Application
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
-[picture of the solution in action, if possible]
+SharePoint Application Customizer Extension to load a custom css file and inject its content into a SharePoint page.
 
 ## Used SharePoint Framework Version
 

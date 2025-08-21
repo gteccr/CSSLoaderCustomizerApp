@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "css-loader-customizer-client-side-solution",
+    "name": "CSS Loader Customizer Application",
     "id": "807e3833-9e91-48f6-9b7c-143c52bc7101",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "css-loader-customizer description"
+        "default": "CSS Loader Customizer Application description"
       },
       "longDescription": {
-        "default": "css-loader-customizer description"
+        "default": "CSS Loader Customizer Application description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
