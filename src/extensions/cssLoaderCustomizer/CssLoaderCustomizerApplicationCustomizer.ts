@@ -16,6 +16,8 @@ export interface ICssLoaderCustomizerApplicationProperties {
   // This is an example; replace with your own property
   testMessage: string;
   cssFileName:string;
+  cssInternalLocation:string;
+  
 }
 
 /** A Custom Action which can be run during execution of a Client Side Application */
@@ -25,27 +27,29 @@ export default class CssLoaderCustomizerApplication
   public onInit(): Promise<void> {
     try{
         Log.info(LOG_SOURCE, `Initialized ${strings.Title}`);
-        const CSSINTERNALLOCATION = 'CDNAssets/customStyle';
+        const CSSINTERNALLOCATION = this.properties.cssInternalLocation;
         const publicCDNURL = this.context.pageContext.legacyPageContext.publicCdnBaseUrl;
         const hostName = window.location.host;
         const cssFileURL = `${publicCDNURL}/${hostName}/${CSSINTERNALLOCATION}/${this.properties.cssFileName}`;
+        console.log (`${LOG_SOURCE}: CSS File URL ${cssFileURL} `);
         Log.info(LOG_SOURCE,`CSS File URL ${cssFileURL}`);
+        
         if(cssFileURL){
-          const head: HTMLHeadElement = document.getElementsByTagName("head")[0] || document.documentElement;
-              let customStyle: HTMLLinkElement = document.createElement("link");
-              customStyle.href = cssFileURL;
-              customStyle.rel = "stylesheet";
-              customStyle.type = "text/css";
-              head.insertAdjacentElement("beforeend", customStyle);
+          let head: HTMLHeadElement = document.getElementsByTagName("head")[0] || document.documentElement;
+          let customStyle: HTMLLinkElement = document.createElement("link");
+          customStyle.href = cssFileURL;
+          customStyle.rel = "stylesheet";
+          customStyle.type = "text/css";
+          head.insertAdjacentElement("beforeend", customStyle);
         }
         else{
-          Log.info(LOG_SOURCE,'No file was foung');      
+          console.info(`${LOG_SOURCE}: No file was found`);      
         }
         
         return Promise.resolve();
     }
     catch(exception){
-      Log.info(LOG_SOURCE,exception);
+      console.info(`${LOG_SOURCE}: ${exception}`);
       throw new exception (exception)
     }    
   }

@@ -13,6 +13,6 @@
   },
   "externals": {},
   "localizedResources": {
-    "CssLoaderCustomizerApplicationCustomizerStrings": "lib/extensions/cssLoaderCustomizer/loc/{locale}.js"
+    "CssLoaderCustomizerApplicationStrings": "lib/extensions/cssLoaderCustomizer/loc/{locale}.js"
   }
 }
